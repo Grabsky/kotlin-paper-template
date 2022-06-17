@@ -1,4 +1,4 @@
-rootProject.name = "Template"
+rootProject.name = "kotlin-paper-template"
 
 pluginManagement {
     repositories {

@@ -1,4 +1,4 @@
-name: Template
+name: kotlin-paper-template
 version: 1.0-SNAPSHOT
 main: just.testing.Main
 api-version: 1.19
