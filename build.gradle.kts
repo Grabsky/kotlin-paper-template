@@ -19,7 +19,7 @@ repositories {
 dependencies {
     compileOnly("org.jetbrains.kotlin", "kotlin-stdlib-jdk8", "1.7.0")
     // Paper
-    paperDevBundle("1.18.2-R0.1-SNAPSHOT")
+    paperDevBundle("1.19-R0.1-SNAPSHOT")
     // ...
 }
 
