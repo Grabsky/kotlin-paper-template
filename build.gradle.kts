@@ -6,7 +6,7 @@ version = "1.0-SNAPSHOT"
 plugins {
     id("java-library")
     id("org.jetbrains.kotlin.jvm") version "1.7.0"
-    id("io.papermc.paperweight.userdev") version "1.3.6"
+    id("io.papermc.paperweight.userdev") version "1.3.7"
     id("com.github.johnrengelman.shadow") version "7.1.2"
 }
 
