@@ -1,4 +1,4 @@
-val buildsDirectory = "${System.getenv("DEVELOPMENT_DIR")}/builds"
+val buildsDirectory = (System.getenv("DEVELOPMENT_DIR") ?: ".") + File.separator + "builds"
 
 group = "just.testing"
 version = "1.0-SNAPSHOT"
@@ -12,7 +12,6 @@ plugins {
 
 repositories {
     mavenCentral()
-    maven("https://jitpack.io")
     maven("https://papermc.io/repo/repository/maven-public/")
     // ...
 }
@@ -33,7 +32,7 @@ tasks {
                 from (reobfJar)
                 into(buildsDirectory)
                 // Renaming output file
-                rename(reobfJar.get().outputJar.asFile.get().name, "${rootProject.name}.jar")
+                rename(reobfJar.get().outputJar.asFile.get().name, "${rootProject.name}_${version}.jar")
             }
         }
     }
