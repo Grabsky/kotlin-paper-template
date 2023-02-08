@@ -1,5 +1,5 @@
-# kotlin-paper-template
-Project template I use as a base for Paper plugins.
+> **Warning**  
+> This template is outdated and now archived.
 
 ### Getting Started
 1. Clone the repository: `git clone https://github.com/Grabsky/kotlin-paper-template.git`
